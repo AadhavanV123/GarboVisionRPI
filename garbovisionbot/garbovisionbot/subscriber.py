@@ -7,7 +7,7 @@ from std_msgs.msg import String
 class MinimalSubscriber(Node):
 
     def __init__(self):
-        super().__init__('simple_subscriber')
+        super().__init__('simple_rpi_subscriber')
         self.subscription = self.create_subscription(
             String,
             '/testchnl',

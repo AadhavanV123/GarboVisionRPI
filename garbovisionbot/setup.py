@@ -24,8 +24,8 @@ setup(
     },
     entry_points={
         'console_scripts': [
-                'publish = garbovisionbot.publisher:main',
-                'subscribe = garbovisionbot.subscriber:main',
+                'publish_rpi = garbovisionbot.publisher:main',
+                'subscribe_rpi = garbovisionbot.subscriber:main',
         ],
     },
 )
