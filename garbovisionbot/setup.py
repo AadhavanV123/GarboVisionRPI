@@ -26,6 +26,7 @@ setup(
         'console_scripts': [
                 'publish_rpi = garbovisionbot.publisher:main',
                 'subscribe_rpi = garbovisionbot.subscriber:main',
+                'keyToMovement_rpi = garbovisionbot.keyboard_to_movement:main'
         ],
     },
 )
